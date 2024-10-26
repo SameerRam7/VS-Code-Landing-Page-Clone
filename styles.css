@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #0d1117;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* letter-spacing: -0.1px; */
+
+        position: sticky;
+        top: 0; /* Sticks the navbar at the top */
+        z-index: 1000; /* Ensures it stays on top of other elements */
+        background-color: #0d1117; /* Optional: Background color for the navbar */
+        box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1); /* Optional: Adds a subtle shadow for depth */
+}
+
+#logo-one{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#vs_code{
+    color: white;
+    font-size: 20px;
+}
+
+#list{
+    margin-top: 22px;
+    list-style: none;
+    display: flex;
+    color:#9ba3b4 ;
+    gap: 22px;
+    font-weight: 450;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#sunlight{
+    height: 22px;
+    margin-right: -11px;
+}
+
+#search{
+    margin-top: -6px;
+    height: 30px;
+    background-color: #0d1117;
+    color: #9ba3b4;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 12px ;
+    border: #9ba3b4 0.1px solid;
+    border-radius: 3px;
+}
+
+#download{
+    width: 110px;
+    height: 30px;
+    background-color:  #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: -6px;
+    margin-left: -13px;
+    font-size: medium;
+    font-weight: 600;
+    padding: 3px 0px 3px 0px;
+}
+
+#download:hover{
+    background-color: #0069b9;
+}
+
+#hero-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 75px;
+}
+
+p{
+    letter-spacing: 1px;
+    color: #9ba3b4;
+    font-size: 25px;
+    font-weight: 500;
+    word-wrap: break-word; /* Allows words to break */
+    width: 750px;
+    margin: -20px 0px 0px 60px;
+}
+
+#hero-buttons{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px 55px 0px;
+    gap: 0.5%;
+}
+
+#d-windows{
+    background-color: #0078d4;
+    color: white;
+    width: 237px;
+    height: 45px;
+    font-size: 17.2px;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+}
+
+#d-windows:hover{
+    background-color: #0069b9;
+    cursor: pointer;
+}
+
+#t-copilot{
+    background-color: #26292f;
+    color: white;
+    width: 200px;
+    height: 45px;
+    font-size: 17.2px;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+}
+
+#t-copilot{
+cursor: pointer;
+}
+
+
+#hero-big-image{
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: contain;
+}
+
+footer{
+    height: 120px;
+}
